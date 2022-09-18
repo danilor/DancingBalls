@@ -78,7 +78,7 @@ class Ball {
          */
         this.name = this.ballPrefix + this.getRandomNumber(100000, 999999);
         this.color = this.getRandomColor();
-
+        this.ticTime = this.getRandomNumber(200, 500);
         this.setUpTic();
     }
 
