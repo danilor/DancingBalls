@@ -5,7 +5,7 @@
 
 
 const config = {
-    maxNumberOfBalls: 200
+    maxNumberOfBalls: 100
 }
 const balls = [];
 
